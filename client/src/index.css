@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.link-style {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link-style:hover {
+  text-decoration: none;
+  color: #1f1d1d;
+}
+
+#welcome {
+  color: white;
+  position: absolute;
+  top: 3%;
+  left: 6%;
+  max-width: 25%;
+  transform: translate(4%, 0%);
+  text-align: center;
+}
+
+#create-account {
+  color: #d58542;
+  margin-bottom: 20px;
+}
+
+#login {
+  color: #d58542;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.signUp-form {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+}
+
+.input-style {
+  width: 450px !important;
+  border-radius: 10px !important;
+  border: 1px solid #bbbbbb !important;
+  height: 42px !important;
+}
+
+.btn-sign-in {
+  background-color: #e09c64 !important;
+  width: 35%;
+  color: white !important;
+  border-radius: 15px !important;
+  border: 1px solid #faf8f7 !important;
+  font-size: 17px !important;
+}
+
+.btn-sign-in:hover {
+  background-color: #d58542 !important;
+}
+
+.new-here {
+  position: absolute;
+  left: 59%;
+  top: 70%;
+  font-size: 14px;
+  transform: translate(2%, 0%);
+}
+
+.forgot-password {
+  font-size: 14px;
+}
+
+.sign-in {
+  color: orange;
+  position: absolute;
+  bottom: 0px;
+  width: 110px;
+}
+
+.sign-in-link:hover {
+  text-decoration: underline;
+}
+
+.validation {
+  border: 1px solid #b93939 !important;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.homeImage {
+  width: 350px;
+  height: 300px;
+  background-size: cover;
+}
+
+.or {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.googleLogin {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}

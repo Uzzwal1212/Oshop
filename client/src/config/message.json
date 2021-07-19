@@ -1,0 +1,27 @@
+{
+    "errorMessage": {
+      "required": "*Required",
+      "invalid": "Invalid",
+      "phone_invalid": "* Invalid phone number",
+      "email_invalid": "* Invalid email",
+      "name": "* Invalid name",
+      "password": "* Must be at least 5 characters long.",
+      "new_password_same": "New password can not be same as current.",
+      "wrong_current_password": "Current password is incorrect.",
+      "requiredList": "is required.",
+      "email_required_new": "is required.",
+      "email_invalid_new": "is invalid.",
+      "phone_invalid_new": "is invalid.",
+      "zip_invalid_new": "is invalid.",
+      "zipInvalid": "is invalid.",
+      "decimalOnly": "*Only decimal values are allowed"
+    },
+    "successMessage": {
+      "gen_setting_save": "Settings are saved",
+      "text_sent": "Message Sent",
+      "password_change": "Password changed successfully"
+    },
+    "errorToastr": {
+      "not_update_doctor_detail": "Cannot update as no field changed"
+    }
+  }
